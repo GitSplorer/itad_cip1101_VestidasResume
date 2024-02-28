@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Comfortaa">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <title>Home Page</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            height: 105vh;
+            background: #F4EAE0;
+            color: #8e8d81;
+        }
+
+        .container {
+            max-width: 1000px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        .section {
+            background-color: #fff;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+            margin-bottom: 40px;
+        }
+
+        .section h3 {
+            font-family: Comfortaa, sans-serif;
+            font-size: 30px;
+            color: #8e8d81;
+            margin-bottom: 10px;
+        }
+
+        .section p {
+            font-family: Comfortaa, sans-serif;
+            font-size: 20px;
+            color: #3D3B40;
+            margin-bottom: 10px;
+        }
+
+        /* Headers */
+        h3 {
+            font-family: Comfortaa, sans-serif;
+            font-weight: normal;
+            text-align: center;
+            font-size: 30px;
+            color: #8e8d81;
+            margin-bottom: 0px;
+            font-weight: bold;
+            text-shadow: 2px 2px 3px;
+        }
+
+        /* Paragraphs */
+        p {
+            text-align: justify;
+            font-family: Comfortaa, sans-serif;
+            font-size: 20px;
+            padding: 3px;
+            text-align: center;
+            color: #8e8d81;
+        }
+        .inputs{
+            font-family: Comfortaa, sans-serif;
+            font-weight: normal;
+            text-align: center;
+            font-size: 30px;
+            color: #8e8d81;
+            margin-bottom: 0px;
+            font-weight: bold;
+            text-shadow: 2px 2px 3px;
+        }
+        .Homee {
+            margin-bottom: 20px;
+        }
+
+        .Aboutme {
+            font-family: Comfortaa, sans-serif;
+            font-size: 50px;
+            color: #8e8d81;
+            margin-bottom: 30px;
+        }
+
+        .Mine {
+            font-family: Comfortaa, sans-serif;
+            font-size: 30px;
+            color: #8e8d81;
+            text-shadow: 2px 2px 3px #8e8d81;
+            padding: 2px;
+        }
+
+        /* Navigation Bar */
+        .navbar {
+            background-color: #333;
+            padding: 10px 0;
+        }
+
+        .nav-list {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+        }
+
+        .nav-list li {
+            display: inline-block;
+        }
+
+        .nav-list li a {
+            display: block;
+            padding: 10px 20px;
+            color: #fff;
+            text-decoration: none;
+        }
+
+        .nav-list li a:hover {
+            background-color: #555;
+        }
+
+        /* Styled container for separating sections */
+        .container-separator {
+            text-align: center;
+            margin-bottom: 100px;
+        }
+
+        .input-box {
+            background-color: #fff;
+            border-radius: 20px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+            padding-bottom: 100px;
+            font-family: Comfortaa, sans-serif;
+            font-size: 20px;
+            color: #3D3B40;
+            display: inline-block; /* Make it display inline-block to allow horizontal placement */
+            margin: 0 20px; /* Adjust margin as needed */
+            width: calc(33.33% - 200px); /* Set width for each box */
+            vertical-align: top; /* Align boxes to the top */
+        }
+        footer {
+            margin-bottom: auto;
+        }
+
+        /* Styling for the image */
+        img {
+            display: block;
+            margin: 0 auto; /* Center the image horizontally */
+            width: 30%; /* Set the width of the image */
+            border-radius: 20px; /* Add border-radius for rounded corners */
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add shadow effect */
+            margin-bottom: 30px; /* Add some space below the image */
+            width: 500px;
+            height: 400px;
+        }
+
+        /* Styling for the bottom navigation bar */
+        .bottom-navbar {
+            background-color: #333;
+            padding: 10px 0;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+            z-index: 1000;
+        }
+
+        .bottom-nav-list {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+        }
+
+        .bottom-nav-list li {
+            display: inline-block;
+            margin: 0 10px;
+        }
+
+        .bottom-nav-list li a {
+            color: #fff;
+            text-decoration: none;
+        }
+        .bottom-nav-list li a:hover{
+            text-decoration: underline;
+        
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar">
+        <ul class="nav-list">
+            <li><a href="Home Page.html">Home</a></li>
+            <li><a href="Resume/Resume Page.html">Resume</a></li>
+        </ul>
+    </nav>
+    
+    <section class="container">
+        <h3>Hi I'm Ivan</h3>
+        <p class="Homee">This is my Home Page, Feel Free to explore it!</p>
+    </section>
+    <!-- Image -->
+    <img src="Beige.jpg" alt="Beige" >   
+    <!-- Container for separating sections -->
+    <div class="container-separator">
+        <!-- Styled input boxes for separating HTML, CSS, and INTEGRATIVE PROGRAMMING -->
+        <div class="input-box"><p class="inputs">HTML</p> <p>HTML is the standard markup language for creating Web pages. I have learn a lot and i have been using this markup languange 
+            whenever i want to learn how to improve visual graphics on web.</p></div> 
+        <div class="input-box"><p class="inputs">CSS</p> <p>CSS <u>(Cascading Style Sheets)</u> allows you to create great-looking web pages. In CSS i've learn so many designs and animation here.</p><br><br></div>
+        <div class="input-box"><p class="inputs">INTEGRATIVE PROGRAMMING<p> <p>In this subject i've really learn a lot and i really enjoy this subject you will experience a lot of challenges
+             and success on the progress.</p><br></div>
+    </div>   
+
+    <!-- Bottom Navigation Bar -->
+    <nav class="bottom-navbar">
+        <ul class="bottom-nav-list">
+            <li><a href="mailtp:ivanvestidas@gmail.com"><i class="far fa-envelope"></i>&nbsp;Email</a></li>
+            <li><a href="https://www.facebook.com/ivankristoffer.vestidas"><i class="fab fa-facebook "></i>&nbsp;Facebook</a></li>
+            <li><a href="https://www.instagram.com/ivnnxc/?hl=en"><i class="fab fa-instagram "></i>&nbsp;Instagram</a></li>
+        </ul>
+    </nav>
+</body>
+</html>
